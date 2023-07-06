@@ -1,0 +1,68 @@
+{
+  "accounts": [
+    {
+      "Username": "username1",
+      "Password": "Password1",
+      "Email": "username1@gmail.com",
+      "DoB": "1990-01-01",
+      "Credit Card Number": "1234567890121314",
+      "Amount": 100
+    },
+    {
+      "Username": "username2",
+      "Password": "Password2",
+      "Email": "username2@gmail.com",
+      "DoB": "1990-01-01",
+      "Credit Card Number": "1234567890121314",
+      "Amount": 999
+    },
+    {
+      "Username": "username3",
+      "Password": "Password3",
+      "Email": "username3@gmail.com",
+      "DoB": "2008-01-01",
+      "Credit Card Number": "1115678901213141",
+      "Amount": 298
+    },
+    {
+      "Username": "username1",
+      "Password": "Password4",
+      "Email": "username4@gmail.com",
+      "DoB": "2000-01-01",
+      "Credit Card Number": "3131567890121314",
+      "Amount": 3098
+    },
+    {
+      "Username": "username5",
+      "Password": "Password5",
+      "Email": "username5@gmail.com",
+      "DoB": "1995-01-01",
+      "Credit Card Number": "1115678901213141",
+      "Amount": 500
+    },
+    {
+      "Username": "username6",
+      "Password": "password6",
+      "Email": "username6@gmail.com",
+      "DoB": "1980-01-01",
+      "Credit Card Number": "3116467890121314",
+      "Amount": 20
+    },
+    {
+      "Username": "username7",
+      "Password": "password7",
+      "Email": "username7@gmail.com",
+      "DoB": "1970-01-01",
+      "Credit Card Number": "2116467890199914",
+      "Amount": 890
+    },
+    {
+      "Username": "username7",
+      "Password": "Password8",
+      "Email": "username8@gmail.com",
+      "DoB": "1976-01-01",
+      "Credit Card Number": "0987654321090807",
+      "Amount": 660
+    }
+  ]
+}
