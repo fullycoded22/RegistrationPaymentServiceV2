@@ -1,0 +1,26 @@
+{
+  "accounts": [
+    {
+      "Username": "username60",
+      "Password": "Password100",
+      "Email": "username100@gmail.com",
+      "DoB": "1996-02-09",
+      "Credit Card Number": "1234567890121314",
+      "Amount": 190
+    },{
+      "Username": "username50",
+      "Password": "Password50",
+      "Email": "username50@gmail.com",
+      "DoB": "1990-02-11",
+      "Credit Card Number": "",
+      "Amount": 148
+    },{
+      "Username": "username99",
+      "Password": "Password100",
+      "Email": "username99gmail.com",
+      "DoB": "1969-02-11",
+      "Credit Card Number": "1234567890121314",
+      "Amount": 1555
+    }
+  ]
+}

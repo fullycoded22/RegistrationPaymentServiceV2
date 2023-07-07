@@ -1,0 +1,13 @@
+Welcome to The Registration Payment Service API!
+Written in Java 11.
+Created with IntelliJ IDEA
+
+I have three test JSON files in the src/test/resources. Please use their absolute file path to test the application's functionality.
+
+Please open the RegistrationPaymentServiceV2 file to open the program.
+Run the App.java Class. (File path src/main/java/org/maccarthyjoshua/App.java)
+Use the POST /user endpoint to upload a JSON by inputting its file path.
+Use the GET /user endpoint to get a single user by assigning the key to 'userName' and value to any username in the JSON.
+Use the /user/creditCard endpoint to filter users with credit cards. Use the key 'response' and assign the value to 'yes', 'no' or any other value.
+Use the  POST /payment endpoint to upload a JSON with payment data by inputting its file path.
+Use the GET /payment endpoint to get a single user's payment data by assigning the key to 'userName' and value to any username in the JSON.

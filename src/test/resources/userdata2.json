@@ -1,0 +1,12 @@
+{
+  "accounts": [
+    {
+      "Username": "username100",
+      "Password": "Password100",
+      "Email": "username100@gmail.com",
+      "DoB": "1990-02-11",
+      "Credit Card Number": "1234567890121314",
+      "Amount": 123
+    }
+  ]
+}
