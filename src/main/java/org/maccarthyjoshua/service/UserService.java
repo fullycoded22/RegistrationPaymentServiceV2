@@ -105,7 +105,7 @@ public class UserService {
         return isValidCreditCard(creditCard) && isValidAmount(amount);
     }
 
-    boolean isAlphaNumeric(String username){
+    public boolean isAlphaNumeric(String username){
 
         if(username.matches("^[a-zA-Z0-9]*$")){
             return true;
@@ -113,7 +113,7 @@ public class UserService {
         return false;
     }
 
-    boolean isWhiteSpace(String username){
+    public boolean isWhiteSpace(String username){
         for (int i = 0; i < username.length(); i++) {
 
             if(Character.isWhitespace(username.charAt(i))){
@@ -123,7 +123,7 @@ public class UserService {
         return false;
     }
 
-    boolean isMinimumLength(String pass){
+    public boolean isMinimumLength(String pass){
         int minimumLength = 8;
         if(pass.length()>= minimumLength){
             return true;
@@ -131,7 +131,7 @@ public class UserService {
         return false;
     }
 
-    boolean containsNumber(String pass){
+    public boolean containsNumber(String pass){
         for (int i = 0; i < pass.length(); i++) {
 
             if(Character.isDigit(pass.charAt(i))){
@@ -141,7 +141,7 @@ public class UserService {
         return false;
     }
 
-    boolean containsUpperCase(String pass) {
+    public boolean containsUpperCase(String pass) {
         for (int i = 0; i < pass.length(); i++) {
 
             if(Character.isUpperCase(pass.charAt(i))){
@@ -151,11 +151,11 @@ public class UserService {
         return false;
     }
 
-    boolean isEmailValid(String email) {
+    public boolean isEmailValid(String email) {
         return email.contains("@");
     }
 
-    boolean isISO8601Date(String DoB) {
+    public boolean isISO8601Date(String DoB) {
         DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE;
 
         try {
@@ -172,12 +172,13 @@ public class UserService {
         return period.getYears() >= 18;
     }
 
-    boolean isValidCreditCard(String num){
+    public boolean isValidCreditCard(String num){
         return num.matches("\\d{16}");
     }
-    boolean isValidAmount(int amount){
+    public boolean isValidAmount(int amount){
         return amount >= 100 && amount <= 999;
     }
+
 
     public List<User>displayUsersWithCreditCard(){
         List<User> creditCardList= new ArrayList<>();
